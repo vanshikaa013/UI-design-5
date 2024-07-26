@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.main-container{
+    background-image:url(./assets/bg\ image.jpg) ;
+    background-position: right;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-inline: 60px;
+    padding-block: 20px;
+}
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.navigation ul hr{
+    height: 20px;
+    width: 2px;
+    background-color: black;
+}
+
+/* navigation */
+
+.hero-sec{
+    width: 50%;
+    padding-left: 90px;
+    padding-top: 80px;
+}
+.hero-sec span{
+    width: 40%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.hero-sec span hr{
+    width: 35%;
+    height: 2px;
+    background-color: black;
+}
+.hero-sec h1{
+    font-size: 60px;
+    font-weight: 400;
+    color: green;
+}
+.hero-sec h2{
+    color: goldenrod;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.buttons{
+    width: 45%;
+    padding-block: 30px;
+    display: flex;
+    align-items: center;
+}
+.buttons button{
+    height: 50px;
+    font-size: 15px;
+}
+
+.buttons .btn-1{
+    width: 200px;
+    background-color: olive;
+    border: none;
+    color: white;
+}
+.buttons .btn-2{
+    width:100px ;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+/* hero-sec */
+
+.last-sec{
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-between ;
+    width: 50%;
+    padding-left: 90px;
+}
+.last-sec span h2{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(111, 111, 0);
+}
+.last-sec span p{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(103, 103, 2);
+
+}
